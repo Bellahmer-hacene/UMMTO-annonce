@@ -1,0 +1,130 @@
+body{font-family: arial;}
+header{display: flex;
+background-color: #75b189;}
+
+#titre{  display: flex;}
+#connexion{
+	display: flex;
+	align-items: center;
+	margin-left: 350px;
+}
+
+header h1 {
+	font-size: 35px;
+	margin-left: 70px;
+	margin-bottom: 0px;
+	font-family: fantasy;
+	color: white;
+}
+header h3{
+	margin-top: 0px;
+	margin-left: 80px;
+	color: white;
+	font-family: monospace;
+}
+
+#nav{
+	border: 2px solid white;
+	border-radius: 6px;
+	display: flex;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #75b189 
+}
+#nav a{
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+	border-right: 2px solid white;
+	color: white;
+}
+#nav form{
+	display: flex;
+	margin-left: 450px;
+}
+#nav input[type="search"]{
+	width: 250px;
+	padding: 5px;
+	border :2px solid white;
+	border-radius: 6px;
+	outline: none;	
+}
+#nav label{
+	padding: 10px;
+	color: white;
+}
+#nav form a{
+	margin-left: 5px;
+    padding: 5px;
+    width: 25px;
+	border :2px solid white;
+	border-radius: 6px;
+	outline: none;
+	background-color: white;
+	text-decoration: none;
+	color: #75b189	
+}
+#formulaire label{
+	display: block;
+	width: 180px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+#formulaire{
+	margin-left: 25%; margin-right: 18%;
+	padding-left: 5%; padding-right: 5%;
+	border: 2px solid #75b189;
+	padding-bottom: 10px;
+}
+
+#formulaire div input,#formulaire textarea,#formulaire select{
+	width: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#date input,#date select{
+	width: 50px;
+}
+#formulaire h3{
+	font-family: calibri;
+	    padding: 6px 10px 6px 10px;
+	border: 2px solid #75b189;
+	background-color: #75b189;
+	color: white;
+}
+#valider{
+	padding: 6px;
+	margin-top: 15px;
+	margin-left: 50%;
+	margin-bottom: 5%;
+	background-color: #75b189;
+	color: white;
+	font:bold 13px Arial;
+	border-radius:2px;
+	width:100px;
+	border:1px solid #ccc;
+	text-decoration: none;
+	margin-right: 17px;
+	box-shadow:1px 1px 3px #999;
+
+}
+section h2{
+	font-family: papyrus;
+	font-size: 2em;
+	margin-bottom: 1px;
+	color: #2b2f2b;
+}
+#aaa{
+	font-family: papyrus;
+	color: #2b2f2b;
+	font-size: 1.2em;
+}
+footer{
+	background-color: #75b189
+}

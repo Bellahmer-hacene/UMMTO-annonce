@@ -1,0 +1,269 @@
+body{font-family: arial;}
+header{display: flex;
+background-color: #75b189;}
+
+#titre{  display: flex;}
+#connexion{
+	display: flex;
+	align-items: center;
+	margin-left: 350px;
+}
+img{ width: 100px; height: 100px; }
+header h1 {
+	font-size: 35px;
+	margin-left: 70px;
+	margin-bottom: 0px;
+	font-family: fantasy;
+	color: white;
+}
+header h3{
+	margin-top: 0px;
+	margin-left: 80px;
+	color: white;
+	font-family: monospace;
+}
+#pseudo{
+	padding: 5px;
+	border :2px solid white;
+	border-radius: 6px;
+	outline: none;
+	margin-right: 12px;
+}
+#passeword{
+	padding: 5px;
+	border :2px solid white;
+	border-radius: 6px;
+	outline: none;
+	margin-right: 12px;
+}
+#bouton1{
+	padding:6px 2px 6px 2px;
+	font:bold 13px Arial;
+	background:#f5f5f5;
+	color:#555;
+	border-radius:2px;
+	width:100px;
+	border:1px solid #ccc;
+	text-decoration: none;
+	margin-right: 17px;
+	box-shadow:1px 1px 3px #999;
+}
+#bouton2{
+	padding:6px 2px 6px 2px;
+	font:bold 13px Arial;
+	background:#f5f5f5;
+	color:#555;
+	border-radius:2px;
+	width:60px;
+	border:1px solid #ccc;
+	text-decoration: none;
+	box-shadow:1px 1px 3px #999;
+}
+#nav{
+	border: 2px solid white;
+	border-radius: 6px;
+	display: flex;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #75b189 
+}
+#nav a{
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+	border-right: 2px solid white;
+	color: white;
+}
+#nav form{
+	display: flex;
+	margin-left: 450px;
+}
+#nav input[type="search"]{
+	width: 250px;
+	padding: 5px;
+	border :2px solid white;
+	border-radius: 6px;
+	outline: none;	
+}
+#nav label{
+	padding: 10px;
+	color: white;
+}
+#nav form a{
+	margin-left: 5px;
+    padding: 5px;
+    width: 25px;
+	border :2px solid white;
+	border-radius: 6px;
+	outline: none;
+	background-color: white;
+	text-decoration: none;
+	color: #75b189	
+}
+
+
+nav{margin-right: 1125px;
+	margin-top: 5px;
+	border: solid 2px black;
+	border-radius: 6px;
+	
+}
+nav p{
+	text-align: center;
+	margin: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#menu{
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 220px;
+}
+#menu ul{
+   padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+
+#menu li{
+  background-color:/*#729EBF*/; 
+   background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+   background-image: linear-gradient(to bottom, #75b189 0%, #75b189 100%);
+   
+   margin-bottom:2px;
+   box-shadow: 3px 3px 3px #999;
+   border:solid 1px #333A40
+}
+#menu li li{
+   max-height:0;
+   overflow: hidden;
+   transition: all 3s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0
+        
+}
+#menu a {
+	display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em
+}
+#menu ul li a, #menu li:hover li a {
+  font-size:1em;
+}
+#menu li:hover {
+   background: #729EBF;
+}
+#menu li li:hover {
+   background: #999;
+}
+#menu ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menu li:hover li {
+  max-height: 15em;
+}
+section{
+	display: flex;
+}
+footer{
+	background-color: #75b189
+}
+
+#for {
+ 
+    display: flex;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+td {
+    text-align: left;
+}
+
+
+div#content div{
+ 
+    
+    display: inline-block;
+    
+    
+}
+
+div#content div.left{
+    width: 60%;
+}
+
+div#content div.right{
+ 
+    vertical-align: top;
+    margin-left: 100px;
+    
+    
+    
+}
+
+
+
+
+#annonces{
+    
+     
+}
+
+.premier{
+    width: 1350px;
+    display: inline-block;
+    height: 210px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+.photos{
+ 
+    height: 190px;
+    width: 220px;
+    
+}
+
+.descr{
+ 
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    word-wrap: break-word; 
+}
+
+.modif{
+ display: inline-block;
+    /* width: 50px; */
+    height: 191px;
+    width: 220px;
+    vertical-align: top; 
+    
+}
+
+h4{
+ 
+    margin-top: 2px;
+    height: 0px;
+    
+}
+
+p{
+ margin-top: 0px;  
+}

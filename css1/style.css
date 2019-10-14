@@ -1,0 +1,171 @@
+
+body {
+    background-color: white; 
+    border: 0px ;
+    margin: 0px ; 
+    font-family: 'Sunflower', sans-serif;
+}
+
+header{
+background-color: white;
+height: 50px ; 
+border: 0px ;
+
+}
+
+
+
+
+header img {
+    float: left ; 
+    margin-left: 85px ;
+    margin-top: 8px ;
+    height: 70px ;
+    width: 200px ; 
+}
+
+header a {
+   overflow: hidden;
+display: block;
+float: right;
+text-decoration: none;
+text-align: center;
+font-size: 20px;
+color: #3282C1;
+font-weight: 600;
+padding: 5px 10px;
+margin-top: 25px;
+margin-right: 25px;
+}
+.hea {
+  overflow: hidden;
+display: block;
+float: right;
+text-decoration: none;
+text-align: center;
+font-size: 20px;
+color: #3282C1;
+font-weight: 600;
+padding: 5px 10px;
+margin-top: 25px;
+margin-right: 25px; 
+    background-color: white;
+border: none;
+cursor: pointer;
+
+}
+
+.posta:hover {
+    color: white;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+ 
+}
+
+.posta {
+    color :  white ; 
+    margin-right: 50px ; 
+        border-radius: 5px ; 
+
+}
+
+.posta {
+      background-color: #EE4957;
+}
+
+
+
+.recherche {
+    width: 700px;
+height: 40px;
+margin-left: 300px;
+position: absolute; 
+}
+
+legend {
+    color: white;
+font-size: 46px;
+text-align: center;
+font-weight: bolder;
+width: 700px;
+padding-bottom: 10px;
+}
+
+.rechercheinput {
+   float: left;
+width: 595px;
+padding: 7px;
+height: 40px;
+font-size: 20px; 
+    
+}
+
+form.recherche button {
+   float: left;
+padding: 7px;
+background-color: #3282C1;
+color: white;
+width: 105px;
+font-size: 22px;
+border: 0px;
+height: 40px;
+}
+form.recherche button:hover {
+    background: #0b7dda;
+}
+
+
+
+nav {
+    display: flex ; 
+    display: inline-block ; 
+    height: 500px ;
+	background-color: bisque;   
+    width: 100% ;
+    background-color: white ;
+    margin-top: 8px ; 
+    
+
+}
+
+nav img {
+    width: 1349px ; 
+    height: 450px ; 
+    border-top: solid 3px #EE4957  ;
+
+}
+
+#cat {
+    display: flex ; 
+    align-items: center ; 
+    justify-content: space-around; 
+    margin-left: 200px ;
+    margin-right: 200px ; 
+
+}
+#cat a {
+    text-decoration: none ;
+    font-size: 20px ;
+    font-weight: bolder;
+    background-color: #F1F1F1 ; 
+    color: #EE4957 ; 
+    padding: 8px ;
+    border-radius: 5px ; 
+    margin-top: 20px ; 
+    
+    
+}
+
+#cat a:hover {
+    background-color: #DBDBDB ;
+
+    
+}
+
+
+
+
+
+
+
+
+
